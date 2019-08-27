@@ -1,0 +1,23 @@
+.ValuaCom {
+    background-color: white;
+    padding: 7% 0px;
+}
+
+.Title-Value {
+    color: #16253f;
+    padding-bottom: 7%;
+}
+
+.Title-Value h3 {
+    font-weight: bold;
+    font-size: 40px
+}
+
+.Item {
+    display: flex;
+    justify-content: center
+}
+
+.Item-value {
+    margin-bottom: 30px
+}

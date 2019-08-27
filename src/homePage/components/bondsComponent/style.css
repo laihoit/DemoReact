@@ -1,0 +1,57 @@
+.Bonds-left {
+    background-color: #16253f;
+}
+
+.content-left {
+    width: 70%;
+    float: right;
+    text-align: left;
+    padding: 7% 0px;
+}
+
+.Bonds-right {
+    background-color: #96add4;
+}
+
+.Bonds-title {
+    color: white;
+    padding: 7% 0px 30px 0px;
+}
+
+.list-content {
+    display: flex;
+}
+
+.Bonds-title h3 {
+    font-weight: bold;
+    font-size: 40px;
+}
+
+.Bonds-type p{
+    color: gray
+}
+
+.Number-bonds {
+    font-weight: bold;
+    font-size: 30px;
+    color: white;
+}
+
+.Persent {
+    font-size: 20px;
+    color: white
+}
+
+.Bonds-text {
+    color: white;
+    padding-top: 20px;
+    margin-right: 40px
+}
+
+.Bonds-text p {
+    font-size: 15px
+}
+
+.Bonds-btn {
+    margin: 20px 0px
+}

@@ -1,0 +1,39 @@
+.Login {
+    background-color: #96add4;
+    padding: 7% 0px;
+    margin: 0
+}
+
+.Content-text {
+    text-align: left;
+    color: white;
+    display: flex;
+    align-items: center
+}
+
+.Content-text h1 {
+    font-weight: bold
+}
+
+.Form-login {
+    border-radius: 15px;
+}
+
+.Title-form {
+    padding: 40px 0px 10px 0px;
+}
+
+.Label-style {
+    display: flex;
+    color: gray
+}
+
+.btnLogin {
+    width: 100%;
+    margin-bottom: 20px
+}
+
+.Forgot-pass {
+    text-align: right;
+    color: #3e7cd4
+}

@@ -1,0 +1,47 @@
+.Header {
+    background-color: #16253f
+}
+
+.Header-phone {
+  float: right;
+  display: inline-flex;
+  padding: 10px
+}
+
+.Header-item {
+    color: #c4cad6;
+    margin-right: 10px
+}
+
+.Phone-icon {
+  margin-right: 5px
+}
+
+.Header-menu {
+  background-color: white;
+  padding-top: 20px;
+}
+
+.menu {
+  display: flex;
+  padding-left: 0;
+}
+
+.menu li {
+  display: flex;
+  align-items: center;
+	min-height: 48px;
+	margin-right: 10px;
+	cursor: pointer;
+  user-select: none;
+  min-width: fit-content;
+}
+
+.Header-login {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.Login {
+  margin: 0 10px
+}
