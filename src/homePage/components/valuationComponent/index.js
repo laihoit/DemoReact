@@ -1,5 +1,7 @@
-import React from 'react'
+import React, { useState, useEffect} from 'react'
 import './style.css'
+
+import axios from 'axios'
 
 const data = [
     {
@@ -17,21 +19,21 @@ const data = [
         url: ''
     },
     {
-        id: 1,
+        id: 3,
         icon: '',
         name: 'THANH KHOẢN CAO  ',
         decription: 'Tìm hiểu các gói thanh toán linh hoạt của HSC',
         url: ''
     },
     {
-        id: 1,
+        id: 4,
         icon: '',
         name: 'DỄ SỬ DỤNG',
         decription: '3 phút hướng dẫn sử dụng hệ thống HSC Trading',
         url: ''
     },
     {
-        id: 1,
+        id: 5,
         icon: '',
         name: 'MINH BẠCH',
         decription: 'Tìm hiểu về giá trị cốt lõi "Client - centric" tại Hà Nội',
@@ -43,6 +45,21 @@ const data = [
 
 function ValuationComponent() {
 
+    const [ dataValue, setValue ] = useState([])
+
+    const fetchData = async () => {
+        const result = await axios(
+            'http://10.88.127.158:8000/?rest_route=/wp/v2/value'
+        );
+        console.log(">>>>>>>> result", result)
+        setValue(result.data)
+    };
+
+    useEffect(() => {
+        fetchData();
+        console.log(">>>>>>>> data", dataValue)
+    }, [])
+
     return (
         <div className="ValuaCom">
             <div className="container">
@@ -50,13 +67,13 @@ function ValuationComponent() {
                     <h3>Giá trị chúng tôi mang lại</h3>
                 </div>
                 <div className="row Item">
-                    {data.map((item) => {
+                    {dataValue.map((item) => {
                         return (
-                            <div className="col-md-4 Item-value">
+                            <div className="col-md-4 Item-value" key={item.id}>
                                 <div className="container">
                                     <h3>Icon</h3>
-                                    <h3>{item.name}</h3>
-                                    <p>{item.decription}</p>
+                                    <h3>{item.title.rendered}</h3>
+                                    <p>{item.post_meta_fields.summary[0]}</p>
                                     <a>Chi tiết</a>
                                 </div>
                             </div>

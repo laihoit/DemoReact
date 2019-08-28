@@ -1,0 +1,40 @@
+.InfoCom {
+    background-color: #16253f;
+    padding: 3% 0px;
+    color: white;
+    text-align: left;
+}
+
+.Orther-title h1 {
+    font-weight: bold;
+    font-size: 40px;
+    margin-right: 20px
+}
+
+.StepsCom {
+    background-color: white;
+    padding: 3% 0px;
+}
+
+.Step-title {
+    padding: 50px 0px;
+}
+
+.Step-title p {
+    color: gray
+}
+
+.Image-item {
+    width: 100%;
+    height: 150px;
+    background-color: #96add4;
+    margin-bottom: 30px
+}
+
+.ItemPost {
+    text-align: left
+}
+
+.ItemPost p {
+    color: gray
+}

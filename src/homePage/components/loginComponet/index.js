@@ -18,16 +18,16 @@ function LoginComponent() {
                                 <h5 className="mb-0">Bạn đã có tài khoản</h5>
                             </div>
                             <div className="card-body">
-                                <form className="form" role="form" autocomplete="off" id="formLogin" novalidate="" method="POST">
+                                <form className="form" role="form" id="formLogin" method="POST">
                                     <div className="container">
                                         <div className="form-group">
-                                            <label for="uname1" className="Label-style">Tên đăng nhập</label>
+                                            <label className="Label-style">Tên đăng nhập</label>
                                             <input type="text" className="form-control form-control-lg Form-login" name="uname1" id="uname1" required="" />
                                             <div className="invalid-feedback">Oops, you missed this one.</div>
                                         </div>
                                         <div className="form-group">
                                             <label className="Label-style">Mật khẩu</label>
-                                            <input type="password" className="form-control form-control-lg Form-login" id="pwd1" required="" autocomplete="new-password" />
+                                            <input type="password" className="form-control form-control-lg Form-login" id="pwd1" required="" />
                                             <div className="invalid-feedback">Enter your password too!</div>
                                         </div>
                                         <div>

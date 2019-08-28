@@ -5,6 +5,7 @@ import LoginComponent from './components/loginComponet'
 import ValuationComponent from './components/valuationComponent'
 import BondsComponent from './components/bondsComponent'
 import TipsComponent from './components/tipsComponent'
+import OrtherComponent from './components/ortherComponent'
 
 function Home() {
     return (
@@ -13,6 +14,7 @@ function Home() {
             <ValuationComponent />
             <BondsComponent />
             <TipsComponent />
+            <OrtherComponent />
         </div>
     )
 }

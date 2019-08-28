@@ -33,16 +33,16 @@ function Header() {
                         <div className="col-md-6">
                             <ul className="menu">
                                 <li>
-                                    <a class="nav-link" href="#">Sản phẩm</a>
+                                    <a className="nav-link" href="#">Sản phẩm</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link" href="#">Kiến thức</a>
+                                    <a className="nav-link" href="#">Kiến thức</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link" href="#">Về HSC Bond</a>
+                                    <a className="nav-link" href="#">Về HSC Bond</a>
                                 </li>
                                 <li>
-                                    <a class="nav-link" href="#">Câu hỏi thường gặp</a>
+                                    <a className="nav-link" href="#">Câu hỏi thường gặp</a>
                                 </li>
                             </ul>
                         </div>
@@ -53,8 +53,8 @@ function Header() {
                         </div>
                         <div className="col-md-3">
                             <div className="Header-login">
-                                <button type="button" class="btn btn-light Login">Đăng nhập</button>                                
-                                <button type="button" class="btn btn-primary">Mở tài khoản</button>
+                                <button type="button" className="btn btn-light Login">Đăng nhập</button>                                
+                                <button type="button" className="btn btn-primary">Mở tài khoản</button>
                             </div>
                         </div>
                     </div>
